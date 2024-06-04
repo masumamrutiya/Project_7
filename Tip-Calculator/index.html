@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="box">
+            <div class="box1">
+                <h1>Tip-calculator</h1>
+            </div>
+            <div class="box2">
+                <form action="/action_page.php" class="contner">
+
+                    <label class="chap bill" for="name">Enter your bill amount</label><br>
+                    <input type="text" class="name form-1" placeholder="Amount paid for service"><br>
+                    <label class="chap" for="email">How was the service ?</label><br>
+                    <select id="princejaiswal" class="form">
+                        <option selected disabled hidden value="Select">
+                            Select
+                        </option>
+                        <option value="0.05">5% - Not so good</option>
+                        <option value="0.10">10% - Medium</option>
+                        <option value="0.25">15% - More Excellent</option>
+                        <option value="0.20">20% - Excellent</option>
+                        <option value="0.25">25% - Better</option>
+                    </select>
+                    <br>
+                    <label class="chap" for="password">How many people are sharing the bill ?</label><br>
+                    <input type="text" class="people form-1" placeholder="people sharing the bill"><br>
+
+                    <button class="btn">Submit</button>
+
+                </form>
+                <div style="text-align: center; font-weight: 600;">
+                    <p class="tip-1"></p>
+                    <p class="tip-2"></p>
+                    <p class="tip-3"></p>
+                    <p class="tip-4"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="script.js"></script>
